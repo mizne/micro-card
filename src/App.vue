@@ -32,5 +32,9 @@ body {
     padding: 0;
     list-style: none;
   }
+
+  video {
+    max-width: 100%;
+  }
 }
 </style>
