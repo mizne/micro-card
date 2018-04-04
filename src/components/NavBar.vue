@@ -31,13 +31,18 @@ import { Component, Prop, Vue } from 'vue-property-decorator'
 
 @Component({})
 export default class NavBar extends Vue {
-  showMenu = false
+  private showMenu = false
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 #navbar {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  box-sizing: border-box;
   padding: 0 15px;
   height: 100px;
   display: flex;
@@ -68,6 +73,7 @@ export default class NavBar extends Vue {
         top: 25px;
         left: -70px;
         text-align: left;
+        background-color: #222;
         li {
           padding: 10px 15px;
           a {

@@ -17,7 +17,7 @@ export default class App extends Vue {}
 </script>
 <style lang="scss">
 body {
-  background-color: #000;
+  min-height: calc(100vh - 100px);
   #app {
     font-family: pictos, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
