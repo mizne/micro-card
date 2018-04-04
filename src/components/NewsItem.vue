@@ -23,6 +23,9 @@ export default class NewsItem extends Vue {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 .news-item {
+  &:not(:first-child) {
+    margin-top: 10px;
+  }
   max-width: 100%;
   height: 185px;
   display: flex;
@@ -77,11 +80,23 @@ export default class NewsItem extends Vue {
       font-size: 14px;
       text-align: left;
       line-height: 25px;
-      display: -webkit-box;
-      -webkit-box-orient: vertical;
-      -webkit-line-clamp: 3;
+      position: relative;
+      line-height: 1.4em;
+      /* 3 times the line-height to show 3 lines */
+      height: 4.2em;
       overflow: hidden;
       max-width: 100%;
+
+      &:after {
+        content: '...';
+        font-weight: bold;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        padding: 0 20px 1px 45px;
+        background: url(http://newimg88.b0.upaiyun.com/newimg88/2014/09/ellipsis_bg.png)
+          repeat-y;
+      }
     }
   }
 }
