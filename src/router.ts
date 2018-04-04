@@ -8,6 +8,7 @@ import News from './views/News.vue'
 Vue.use(Router)
 
 export default new Router({
+  mode: 'history',
   routes: [
     {
       path: '/',
