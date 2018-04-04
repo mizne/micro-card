@@ -1,10 +1,10 @@
 {
   "defaultSeverity": "warning",
-  "extends": [
-    "tslint:recommended"
-  ],
+  "extends": ["tslint:recommended"],
   "rules": {
     "quotemark": [true, "single"],
+    "semicolon": [false],
+    "trailing-comma": [false],
     "indent": [true, "spaces", 2],
     "interface-name": false,
     "ordered-imports": false,
