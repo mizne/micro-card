@@ -11,7 +11,7 @@
         name="slide"
         enter-active-class="slideInUp"
       >
-        <h3 v-if="show">  用手机拍摄自己名片，“递名片”就能自动帮你把信息「填好」。</h3>
+        <h3 v-if="show">  用手机拍摄自己名片，“名片100”就能自动帮你把信息「填好」。</h3>
       </transition>
       <transition
         name="slide"

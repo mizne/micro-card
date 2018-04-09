@@ -5,7 +5,7 @@
         name="slide"
         enter-active-class="slideInUp"
       >
-        <h1 v-if="show">“递名片”，重新定义名片。</h1>
+        <h1 v-if="show">“名片100”，重新定义名片。</h1>
       </transition>
       <transition
         name="slide"

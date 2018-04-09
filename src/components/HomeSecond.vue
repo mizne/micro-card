@@ -5,7 +5,7 @@
         name="slide"
         enter-active-class="slideInUp"
       >
-        <p v-if="show">“递名片”--商务人士必备的电子名片制作、收发，人脉信息管理工具。</p>
+        <p v-if="show">“名片100”--商务人士必备的电子名片制作、收发，人脉信息管理工具。</p>
       </transition>
       <transition
         name="slide"
@@ -29,7 +29,7 @@
         name="slide"
         enter-active-class="slideInUp"
       >
-        <p v-if="show">“递名片”，为商务沟通提供了无限可能。</p>
+        <p v-if="show">“名片100”，为商务沟通提供了无限可能。</p>
       </transition>
     </center>  
   </div>

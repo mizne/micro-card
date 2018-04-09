@@ -1,13 +1,13 @@
 <template>
     <div id="navbar">
       <div class="logo">
-        <img src="../assets/home-logo.png">
+        <!-- <img src="../assets/home-logo.png"> -->
       </div>
       <div class="router-container">
         <div class="navbar-collapse">
           <i class="iconfont icon-menu" @click="showMenu = !showMenu"></i>
           <ul class="navbar nav" v-if="showMenu" @click="showMenu = !showMenu">
-            <li><router-link to="/">递名片</router-link></li>
+            <li><router-link to="/">名片100</router-link></li>
             <li><router-link to="/my-home">我的主页</router-link></li>
             <li><router-link to="/news">新闻动态</router-link></li>
             <li><router-link to="/about">关于我们</router-link></li>
@@ -16,7 +16,7 @@
 
         <div class="navbar-expand">
           <ul class="navbar nav">
-            <li><router-link to="/">递名片</router-link></li>
+            <li><router-link to="/">名片100</router-link></li>
             <li><router-link to="/my-home">我的主页</router-link></li>
             <li><router-link to="/news">新闻动态</router-link></li>
             <li><router-link to="/about">关于我们</router-link></li>

@@ -21,7 +21,7 @@
          preload="auto" loop="" autoplay="" poster="../assets/mpj.png" src="https://img-1255379270.cosbj.myqcloud.com/video/%E5%BE%AE%E4%BF%A1%E7%BE%A4%E6%8F%9B%E5%90%8D%E7%89%871.5.mp4  "></video>
       </div>
       <div class="desc">
-        <h3 v-if="show">“递名片”利用前沿技术，自动整合各个微信群中所有名片信息。你可以在微信群中，高效地查找、保存所需的人脉。有了“递名片”，在微信群中换名片，才如此与众不同。</h3>
+        <h3 v-if="show">“名片100”利用前沿技术，自动整合各个微信群中所有名片信息。你可以在微信群中，高效地查找、保存所需的人脉。有了“名片100”，在微信群中换名片，才如此与众不同。</h3>
       </div>
      
     </div>

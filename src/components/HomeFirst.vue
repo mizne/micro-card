@@ -5,7 +5,7 @@
         name="slide"
         enter-active-class="slideInUp"
       >
-        <h1 v-if="show">“递名片”，重新定义名片。</h1>
+        <h1 v-if="show">“名片100”，重新定义名片。</h1>
       </transition>
       <transition
         name="slide"
@@ -17,7 +17,7 @@
         name="slide"
         enter-active-class="slideInUp"
       >
-        <p v-if="show">使用微信“扫一扫”，免费使用微信小程序“递名片”。</p>
+        <p v-if="show">使用微信“扫一扫”，免费使用微信小程序“名片100”。</p>
       </transition>
     </center>  
   </div>
