@@ -11,7 +11,7 @@
         name="slide"
         enter-active-class="slideInUp"
       >
-        <img v-if="show" src="../assets/qrcode.png" alt="">
+        <img v-if="show" src="../assets/qrcode.jpg" alt="">
       </transition>
     </center>  
   </div>
